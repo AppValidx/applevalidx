@@ -17,9 +17,10 @@
       "bundleIdentifier": "com.adriansaenz.validx",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false,
-        "NSCameraUsageDescription": "Necesitamos la cámara para escanear QR.",
-        "NSPhotoLibraryUsageDescription": "Necesitamos acceso para seleccionar fotos.",
-        "NSMicrophoneUsageDescription": "Necesitamos el micrófono para video o audio si lo usas."
+        "NSCameraUsageDescription": "Necesitamos acceso a la cámara para escanear códigos QR.",
+        "NSPhotoLibraryUsageDescription": "Necesitamos acceso a tu biblioteca para que puedas seleccionar una foto de perfil.",
+        "NSPhotoLibraryAddUsageDescription": "Necesitamos permiso para guardar imágenes en tu biblioteca cuando tú lo solicites.",
+        "NSMicrophoneUsageDescription": "Necesitamos acceso al micrófono para grabar video con audio dentro de la app."
       }
     },
     "android": {
@@ -35,7 +36,7 @@
       }
     },
     "owner": "kiubit0",
-    "newArchEnabled": false,
+    "newArchEnabled": true,
     "plugins": ["expo-router"]
   }
 }
